@@ -1,0 +1,6 @@
+This .gitkeep folder ensures that the empty SecondFolder is tracked by Git. 
+Empty folders are completely ignored by Git and will not even show up as part of the repo on GitHub,
+so adding this file tells Git that this folder needs to be tracked because it's important for repo 
+structure, even if it doesn't have anything inside of it. 
+Once you add actual content to this folder, .gitkeep can be deleted since Git will track this folder 
+as normal since it is no longer empty.
